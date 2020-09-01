@@ -1,106 +1,159 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9rem;
-    /* margin: 0px; */
-    /* padding: 0px; */
-}
-
-.header {
-    display: flex;
-    pointer-events: unset;
-    cursor: pointer;
-}
-
-.headers:hover {
-    text-decoration: underline;
-    opacity: 1;
-}
-
-a,
-u {
-    text-decoration: none;
-    color: rgb(32, 30, 30);
-}
-
-
-/* #icon {
-    vertical-align: middle;
-} */
-
-.button {
-    display: flex;
-    align-items: center;
-    background-color: rgb(0, 119, 255);
-    color: white;
-    padding: 2rem 5rem;
-    margin: 0.5rem 0rem 5rem;
-    border-radius: 0.2rem;
-    font-weight: 700;
-}
-
-.button:active {
-    border: 2px solid rgb(39, 39, 139);
-}
-
-.image-link {
-    display: flex;
-    align-items: center;
-    opacity: 0.5;
-}
-
-.left-header {
-    padding: 1rem;
-}
-
-.right-header {
-    padding: 1rem;
-}
-
-.lh {
-    display: flex;
-    margin-right: auto;
-}
-
-.rh {
-    display: flex;
-    margin-left: auto;
-    height: 3rem;
-}
-
-main {
-    margin: 18%;
-    text-align: center;
-}
-
-#logo {
-    display: flex;
-    margin: auto;
-    /* align-content: space-between; */
-    /* align-self: center; */
-}
-
-.textbar {
-    border-width: 0.1rem;
-    border-radius: 2rem;
-    border: 0.1rem solid rgba(107, 103, 103, 0.5);
-    height: 2.5rem;
-    width: 35rem;
-}
-
-.inputs {
-    margin: 1.5rem;
-}
-
-.mid-but {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-}
-
-.mid-button {
-    size: 40rem;
-    margin: 1rem 0.5rem;
-    background-color: rgb(250, 246, 246);
-    color: rgb(94, 90, 90);
-    padding: 0.8em 1.3em;
-    border-radius: 0.3rem;
-}
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        /* margin: 0px; */
+        /* padding: 0px; */
+    }
+    
+    .header {
+        display: flex;
+        pointer-events: unset;
+        cursor: pointer;
+    }
+    
+    .headers:hover {
+        text-decoration: underline;
+        opacity: 1;
+    }
+    
+    a,
+    u {
+        text-decoration: none;
+        color: rgb(32, 30, 30);
+    }
+    
+    .button {
+        display: flex;
+        align-items: center;
+        background-color: rgb(0, 119, 255);
+        color: white;
+        padding: 2rem 5rem;
+        margin: 0.5rem 0rem 5rem;
+        border-radius: 0.2rem;
+        font-weight: 700;
+    }
+    
+    .button:active {
+        border: 2px solid rgb(39, 39, 139);
+    }
+    
+    .image-link {
+        display: flex;
+        align-items: center;
+        opacity: 0.5;
+    }
+    
+    .left-header {
+        padding: 1rem;
+    }
+    
+    .right-header {
+        padding: 1rem;
+    }
+    
+    .lh {
+        display: flex;
+        margin-right: auto;
+    }
+    
+    .rh {
+        display: flex;
+        margin-left: auto;
+        height: 3rem;
+    }
+    
+    main {
+        margin: 16%;
+        text-align: center;
+    }
+    
+    #logo {
+        display: flex;
+        margin: auto;
+        /* align-content: space-between; */
+        /* align-self: center; */
+    }
+    
+    .textbar {
+        border-width: 0.1rem;
+        border-radius: 2rem;
+        border: 0.1rem solid rgba(136, 132, 132, 0.5);
+        height: 2.9rem;
+        width: 32rem;
+        outline: none;
+        background: url(./images/google_microphone.png) repeat right 10px center;
+        background-size: 2%;
+        background: url(./images/magnifying_glass.jpg) no-repeat left 15px center;
+        background-size: 6%;
+        padding-left: 50px;
+    }
+    
+    .textbar:hover {
+        box-shadow: 2px 2px 4px 1.5px rgba(94, 88, 88, 0.2);
+    }
+    
+    .inputs {
+        margin: 1.5rem;
+    }
+    
+    .mid-but {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+    .mid-button {
+        size: 40rem;
+        margin: 1rem 0.5rem;
+        background-color: rgb(250, 246, 246);
+        color: rgb(94, 90, 90);
+        padding: 0.8em 1.3em;
+        border-radius: 0.3rem;
+    }
+    
+    .mid-text {
+        color: darkblue;
+        text-decoration: underline;
+    }
+    
+    footer {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        background-color: rgb(247, 242, 242);
+    }
+    
+    .region {
+        background-color: greenyellow;
+        font-size: large !important;
+        padding: 0.5rem;
+    }
+    
+    .footer-bottom {
+        display: flex;
+        pointer-events: unset;
+        cursor: pointer;
+    }
+    
+    .footers:hover {
+        text-decoration: underline;
+        opacity: 1;
+    }
+    
+    .left-footer {
+        padding: 0.5rem;
+    }
+    
+    .right-footer {
+        padding: 1rem;
+    }
+    
+    .lf {
+        margin: 0.5rem 0.1rem 1rem;
+        float: left;
+    }
+    
+    .rf {
+        /* display: flex;
+        margin-left: auto; */
+        float: right;
+    }
