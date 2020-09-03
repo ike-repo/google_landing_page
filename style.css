@@ -80,6 +80,11 @@
         margin: auto;
     }
     
+    .inputs {
+        display: flex;
+        margin: auto;
+    }
+    
     .textbar {
         border-width: 0.1rem;
         border-radius: 2rem;
@@ -88,14 +93,16 @@
         width: 32rem;
         object-fit: contain;
         outline: none;
-        padding-left: 50px;
+        padding-left: 5%;
         font-size: 1rem;
+        display: flex;
+        margin: auto;
     }
     
     #mic {
         position: relative;
-        top: 5px;
-        right: 74px;
+        top: 13px;
+        right: 11rem;
         height: 20px;
     }
     
@@ -104,7 +111,7 @@
         width: 30px;
         position: relative;
         top: 10px;
-        left: -35rem;
+        left: -40.8rem;
     }
     
     .textbar:hover {
