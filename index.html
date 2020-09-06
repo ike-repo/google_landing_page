@@ -4,69 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Google Landing Page</title>
+    <title>Google</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./images/gfavicon.png">
-
+    <link rel="shortcut icon" href="./images/gfavicon.png" type="image/png">
 </head>
 
 <body>
-    <header>
-        <div class="header">
-            <div class="lh">
-                <a href="" class="left-header headers">About</a>
-                <a href="" class="left-header headers">Store</a>
-            </div>
-            <div class="rh">
-                <a href="" class="right-header headers">Gmail</a>
-                <a href="" class="right-header headers">Images</a>
-                <a href="#" class="right-header headers image-link">
-                    <img src="./images/appicon.png" id="icon" alt="appicon">
-                </a>
-                <a href="" class="right-header button">Sign In</a>
-            </div>
-        </div>
+    <header class="clearfix">
+        <ul class="header-left">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+        </ul>
+        <ul class="header-right">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li>
+                <a href="#"> <img id="appicon" src="./images/appicon.png" alt="applications"></a>
+            </li>
+            <li> <button id="sign-in-button">Sign In</button>
+            </li>
+        </ul>
     </header>
     <main>
-        <div>
-            <img id="logo" src="./images/googlelogo.png" alt="google logo">
-            <div class="inputs">
-                <input type="text" class="textbar">
-                <img id="mag" src="./images/magnifying_glass.jpg" alt="magnifier">
-                <!-- <a href="#" id="input-link"> -->
-                <img id="mic" src="./images/google_microphone.png" alt="microphone">
-                <!-- </a> -->
-            </div>
-            <div class="mid-but">
-                <a href="" class="mid-button">Google Search</a>
-                <a href="" class="mid-button">I'm Feeling Lucky</a>
-            </div>
-            <div>
-                <p class="mid-text">Other Languages you can use Google: <a href="" id="language">English</a></p>
+        <img id="google-logo" src="./images/googlelogo.png" alt="logo">
+        <div class="searchbar">
+            <img id="mag" src="./images/magnifying_glass.jpg" alt="magnify-glass">
+            <input type="search" name="search" id="search">
+            <img id="keyboard" src="./images/keyboard.png" alt="keyboard">
+            <img id="microphone" src="./images/google_microphone.png" alt="microphone">
+        </div>
 
-            </div>
+        <div class="btn-container">
+            <button id="btn1" type="button" name="button">Google Search</button>
+            <button id="btn2" type="button" name="button">I'm Feeling Lucky</button>
+        </div>
+        <div class="lang">
+            <p id="language">Other Languages you can use Google: <a id="alt-lang" href="#">Turkish</a></p>
         </div>
     </main>
     <footer>
-        <div>
-            <div>
-                <div class="region">
-                    <p>Turkey</p>
-                </div>
-            </div>
-            <nav class="nav-footer">
-                <div class="lf">
-                    <a href="" class="left-footer footers">Advertising</a>
-                    <a href="" class="left-footer footers">Business</a>
-                    <a href="" class="left-footer footers">How Search Works</a>
-                </div>
-                <div class="rf">
-                    <a href="" class="right-footer footers">Privacy</a>
-                    <a href="" class="right-footer footers">Terms</a>
-                    <a href="" class="right-footer footers">Settings</a>
-                </div>
-            </nav>
-        </div>
+        <div class="country">Turkey</div>
+        <ul class="footer-left">
+            <li>
+                <a href="#">Advertising</a></li>
+            <li>
+                <a href="#">Business</a></li>
+            <li>
+                <a href="#">How Search Works</a></li>
+        </ul>
+        <ul class="footer-right">
+            <li>
+                <a href="#">Privacy</a></li>
+            <li>
+                <a href="#">Terms</a></li>
+            <li>
+                <a href="#">Settings</a></li>
+        </ul>
+
     </footer>
 </body>
 
